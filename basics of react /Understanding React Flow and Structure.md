@@ -11,7 +11,7 @@ React is a JavaScript library used for building user interfaces. It focuses on c
 - **Syntax Extension**: Allows writing HTML-like code in JavaScript files.
 - **Transpilation**: JSX code is transpiled into JavaScript using tools like Babel.
 #### JSX Example
-```javascript
+```jsx
 // JSX allows embedding HTML-like code within JavaScript, making it easier to write React components.
 
 import React from 'react';
@@ -29,7 +29,7 @@ export default MyComponent;
 ```
 
 Explanation:
-```
+```jsx
 JSX simplifies the creation of UI components by resembling HTML syntax within JavaScript files.
 Tags like <div>, <h1>, <p> represent HTML elements, but they are actually React components.
 JSX elements are transpiled to JavaScript functions by tools like Babel before rendering.
