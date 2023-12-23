@@ -2,6 +2,9 @@
 
 ### Things to learn : 
 1. [Understand the react flow and structure](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
+    - What is React
+    - JSX, Components
+    - Props, States, Basics of React
 2. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
 3. [Ways to create ReactApps](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
 4. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
