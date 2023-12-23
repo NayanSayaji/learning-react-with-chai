@@ -139,13 +139,14 @@ In this example, App is the root component, and it contains several child compon
 
 **Note:** Maintaining a clear component tree structure is crucial for a well-structured and easily maintainable React application.
 
+**[Read more about virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)**
 
 ## React Flow
 
 ### 1. Initialization
 
-- **ReactDOM.render()**: Renders the root component into the HTML DOM.
-- **Element Rendering**: The root component renders its children in a hierarchical manner.
+- **ReactDOM.render()**: Renders the root component into the HTML DOM. That is a kind of main container where react adds and removes all the code of components.
+- **Element Rendering**: The root component renders its children in a hierarchical manner. MainSection>Header>Content>Footer
 
 ### 2. Component Lifecycle
 
@@ -155,8 +156,8 @@ In this example, App is the root component, and it contains several child compon
 
 ### 3. State and Props
 
-- **State**: Internal data of a component that can change over time.
-- **Props (Properties)**: External inputs passed to a component.
+- **State**: Internal data of a component that can change over time or in simple words we can say these are the variable.
+- **Props (Properties)**: External inputs passed to a component i.e., different values for the variables or for a component props works as attribute values. So we can say props in nothing but attributes for react components.
 
 ### 4. Event Handling
 
