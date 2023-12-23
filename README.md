@@ -1,7 +1,7 @@
 # Learning React with chai.
 
 ### Things to learn : 
-1. [Understand the react flow and structure]()
+1. [Understand the react flow and structure](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
 2. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
 3. [Why you need hooks and projects]()
 4. [Virtual DOM]()
