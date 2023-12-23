@@ -1,4 +1,4 @@
-# Learning React with chai.
+# Learning React with chai ☕
 
 ### Things to learn : 
 1. [Understand the react flow and structure](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
