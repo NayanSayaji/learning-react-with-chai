@@ -5,10 +5,20 @@
     - What is React
     - JSX, Components
     - Props, States, Basics of React
-2. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
-3. [Ways to create ReactApps](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+2. [Ways to create ReactApps](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+    - using react, react-dom cdn links (not recommended, so complex for bundling the application)
+    - create-react-app (CRA)
+    - vite
+3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
 4. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
+    - What is Virtual DOM
+    - Reconciliation
+    - Old reconciliation (stack) and New reconciliation (fibre)
 5. [Why you need hooks and projects]()
+    - What is hooks
+    - Basics of hooks
+    - useState() hook
+    - Simple counter using useState() Hook
 6. [React fibre]()
 7. [Reconcillation]()
 8. [Props in react.]()
