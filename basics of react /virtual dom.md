@@ -6,6 +6,7 @@ The Virtual DOM (Document Object Model) is a lightweight copy of the actual DOM 
 
 - **The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.** 
 *****This process is called reconciliation.*****
+- **The old reconciler algorithm (also known as the Stack Reconciler) because it uses stack internally. [React Fiber](https://github.com/acdlite/react-fiber-architecture) Reconciler is the new reconciliation algorithm introduced in React 16. It represents a complete reimplementation of React's core algorithm for rendering user interfaces.**
 
 This approach enables the declarative API of React: You tell React what state you want the UI to be in, and it makes sure the DOM matches that state. This abstracts out the attribute manipulation, event handling, and manual DOM updating that you would otherwise have to use to build your app.
 
@@ -14,8 +15,7 @@ Since “virtual DOM” is more of a pattern than a specific technology, people 
 ### Is the Shadow DOM the same as the Virtual DOM?
 No, they are different. The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components. The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
 
-![Virtual DOM ](![image](https://github.com/NayanSayaji/learning-react-with-chai/assets/87807909/d4606fb6-6485-4bbe-8666-c8aa8f654e18)
-)
+<img src="../assets/virtual%20dom.png" alt="virtual dom" title="virtual DOM" width="600">
 
 ### How It Works:
 
