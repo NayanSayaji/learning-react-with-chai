@@ -8,7 +8,7 @@
 2. [Ways to create ReactApps](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
     - using react, react-dom cdn links (not recommended, so complex for bundling the application)
     - create-react-app (CRA)
-    - vite
+    - using vite CLI
 3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
 4. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
     - What is Virtual DOM
