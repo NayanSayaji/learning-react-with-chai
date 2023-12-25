@@ -1,31 +1,31 @@
 # Learning React with chai ☕
 
 ### Things to learn : 
-1. [Understand the react flow and structure](basics%20of%20react%20/Understanding-React-Flow-and-Structure.md)
+1. [Understand the react flow and structure](basics-of-react/Understanding-React-Flow-and-Structure.md)
     - What is React
     - JSX, Components
     - Props, States, Basics of React
-2. [Ways to create ReactApps](basics%20of%20react%20/Ways-to-create-ReactApps.md)
+2. [Ways to create ReactApps](basics-of-react/Ways-to-create-ReactApps.md)
     - using react, react-dom cdn links (not recommended, so complex for bundling the application)
     - create-react-app (CRA)
     - using vite CLI
-3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)](basics%20of%20react%20/create-your-own-react-library-and-jsx-custom-react.md)
+3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)](basics-of-react/create-your-own-react-library-and-jsx-custom-react.md)
     - customReact.js
     - customRender Function
     - Example React-like Element
     - Usage Example
 Simplifications and Limitations
-5. [Virtual DOM](basics%20of%20react%20/virtual-dom.md)
+5. [Virtual DOM](basics-of-react/virtual-dom.md)
     - What is Virtual DOM
     - Reconciliation
     - Old reconciliation (stack) and New reconciliation (fibre)
-6. [Why you need hooks and projects](basics%20of%20react%20/hooks.md)
+6. [Why you need hooks and projects](basics-of-react/hooks.md)
     - What is hooks
     - Basics of hooks
     - useState() hook
     - Simple counter using useState() Hook
-7. [Props in react.](basics%20of%20react%20/props.md)
-8. [A react interview question on counter](basics%20of%20react%20/counter-question.md)
+7. [Props in react.](basics-of-react/props.md)
+8. [A react interview question on counter](basics-of-react/counter-question.md)
 9. [UseEffect, useRef and useCallback hooks with 1 project]()
 10. [Custom hooks in react | currency project]()
 11. [React router ]()
