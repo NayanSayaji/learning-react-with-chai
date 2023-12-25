@@ -35,7 +35,7 @@ No, they are different. The Shadow DOM is a browser technology designed primaril
 
 <img src="../assets/virtual%20dom.png" alt="virtual dom" title="virtual DOM" width="600">
 
-### How It Works:
+## How It Works:
 
 1. **Representation of DOM**: The Virtual DOM is a representation of the actual DOM as a tree structure composed of React elements.
 
@@ -47,7 +47,7 @@ No, they are different. The Shadow DOM is a browser technology designed primaril
 
 5. **Batch Updates**: React performs these updates in batches and then updates the actual DOM in a single operation. This approach minimizes browser layout reflows and repaints, improving overall performance.
 
-### Benefits of Virtual DOM:
+## Benefits of Virtual DOM:
 
 - **Performance Optimization**: By minimizing direct manipulation of the actual DOM, React optimizes rendering and boosts application performance.
 
@@ -90,20 +90,21 @@ representing the count value, leveraging the efficiency of the Virtual DOM.
 
 Absolutely! Here are some notes on reconciliation in React, formatted in Markdown:
 
-### Reconciliation in React
+## Reconciliation in React
 
 In React, reconciliation is the process of efficiently updating the UI to match the most recent tree of React elements. This process occurs whenever there are changes in the component's state or props.
 
-#### **Virtual DOM and Reconciliation**
+## **Virtual DOM and Reconciliation**
 
 - **Virtual DOM Concept:** React uses a virtual representation of the actual DOM. When changes occur, React creates a new virtual DOM tree and compares it with the previous one to determine the minimal number of updates required.
 
-#### **How Reconciliation Works**
+## **How Reconciliation Works**
 
 - **Tree Diffing Algorithm:** React employs a tree diffing algorithm to perform a diff between the old and new virtual DOM trees.
   
 - **Efficient Updates:** React identifies the differences between the two trees and optimizes the updates by only applying necessary changes to the actual DOM.
 
+## **Key features :**
 - **Purpose:** React's way of efficiently updating the UI based on changes in state or props.
 - **Virtual DOM:** React uses a virtual representation of the actual DOM for faster updates.
 - **Diffing Algorithm:** Compares old and new virtual DOM trees to find differences.
@@ -118,7 +119,8 @@ Reconciliation ensures React updates the UI efficiently, minimizing unnecessary 
 
 **************************************************************************
 
-# Old Reconciliation Algorithm (Stack Reconciliation)
+# Stack Reconciliation & Fiber Reconciliation
+## Old Reconciliation Algorithm (Stack Reconciliation)
 
 - **Overview:**
   - **Synchronous:** Operated synchronously and could cause performance issues for large or deeply nested component trees.
@@ -133,7 +135,7 @@ Reconciliation ensures React updates the UI efficiently, minimizing unnecessary 
   - **Blocking Nature:** Long-running operations or deeply nested trees could block the main thread, leading to poor user experience.
   - **Limited Interruption:** Difficult to prioritize rendering tasks effectively, impacting responsiveness.
 
-### New Reconciliation Algorithm (Fiber Reconciliation)
+## New Reconciliation Algorithm (Fiber Reconciliation)
 
 - **Overview:**
   - **Asynchronous and Prioritized:** Introduced to address performance and responsiveness issues of the stack-based approach.
