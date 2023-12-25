@@ -1,47 +1,52 @@
 # Learning React with chai ☕
 
 ### Things to learn : 
-1. [Understand the react flow and structure](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
+1. [Understand the react flow and structure](basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
     - What is React
     - JSX, Components
     - Props, States, Basics of React
-2. [Ways to create ReactApps](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+2. [Ways to create ReactApps](basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
     - using react, react-dom cdn links (not recommended, so complex for bundling the application)
     - create-react-app (CRA)
     - using vite CLI
-3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)]()
-4. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
+3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)](basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+    - customReact.js
+    - customRender Function
+    - Example React-like Element
+    - Usage Example
+Simplifications and Limitations
+5. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
     - What is Virtual DOM
     - Reconciliation
     - Old reconciliation (stack) and New reconciliation (fibre)
-5. [Why you need hooks and projects]()
+6. [Why you need hooks and projects]()
     - What is hooks
     - Basics of hooks
     - useState() hook
     - Simple counter using useState() Hook
-6. [React fibre]()
-7. [Reconcillation]()
-8. [Props in react.]()
-9. [A react interview question on counter]()
-10. [UseEffect, useRef and useCallback hooks with 1 project]()
-11. [Custom hooks in react | currency project]()
-12. [React router ]()
-13. [Context API in React]()
-14. [Context api with local storage]()
-15. [Redux toolkit crash course]()
-16. [Our mega project in React]()
-17. [Appwrite backend for react project]()
-18. [ENV and Appwrite in React project]()
-19. [Build authentication service with appwrite]()
-20. [Appwrite database, file upload and custom queries]()
-21. [How to configure redux toolkit in big projects]()
-22. [Production grade react components]()
-23. [How to use React hook form in production]()
-24. [adding form and slug values]()
-25. [building pages]()
-26. [CORS and debugging in React Project]()
-27. [Assignments for your react course]()
-28. [React series ends here]()
+7. [React fibre]()
+8. [Reconcillation]()
+9. [Props in react.]()
+10. [A react interview question on counter]()
+11. [UseEffect, useRef and useCallback hooks with 1 project]()
+12. [Custom hooks in react | currency project]()
+13. [React router ]()
+14. [Context API in React]()
+15. [Context api with local storage]()
+16. [Redux toolkit crash course]()
+17. [Our mega project in React]()
+18. [Appwrite backend for react project]()
+19. [ENV and Appwrite in React project]()
+20. [Build authentication service with appwrite]()
+21. [Appwrite database, file upload and custom queries]()
+22. [How to configure redux toolkit in big projects]()
+23. [Production grade react components]()
+24. [How to use React hook form in production]()
+25. [adding form and slug values]()
+26. [building pages]()
+27. [CORS and debugging in React Project]()
+28. [Assignments for your react course]()
+29. [React series ends here]()
 
 
 ## Understand the react flow and structure.
