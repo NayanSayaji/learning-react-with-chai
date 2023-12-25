@@ -10,7 +10,7 @@
 NodeJs should be installed if not the install nodejs first.
 ```
 
-### Creating a React App using HTML, CSS, and JavaScript with CDN Links
+## 1.Creating a React App using HTML, CSS, and JavaScript with CDN Links
 
 Below is an example of how you can create a simple React app using HTML, CSS, and JavaScript along with React and ReactDOM via CDN links.
 
@@ -73,3 +73,4 @@ body {
 This structure allows you to create a basic React app using CDN links for React and ReactDOM. 
 You can write your components in app.js, define styles in styles.css, and connect them in the index.html file.
 For production applications, it's advisable to use package managers and build tools to manage dependencies and optimize your code.
+[Read about package bundler here](/package%20bundler.md)
