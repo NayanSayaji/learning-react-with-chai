@@ -1,5 +1,24 @@
 # Understanding React Flow and Structure
 
+1. **[Introduction to React](#introduction-to-react)**
+2. **[Key Concepts of React](#key-concepts-of-react)**
+   - [JSX (JavaScript XML)](#1-jsx-javascript-xml)
+   - [Component-Based Architecture](#2-component-based-architecture)
+3. **[Virtual DOM](#3-virtual-dom)**
+4. **[Tree Structure in React](#tree-structure-in-react)**
+5. **[React Flow](#react-flow)**
+   - [Initialization](#1-initialization)
+   - [Component Lifecycle](#2-component-lifecycle)
+   - [State and Props](#3-state-and-props)
+   - [Event Handling](#4-event-handling)
+6. **[React Structure](#react-structure)**
+   - [Components](#components)
+   - [JSX Structure](#jsx-structure)
+   - [Folder Structure](#folder-structure)
+   - [Styling](#styling)
+7. **[Conclusion](#conclusion)**
+8. **[Advantages of React](#advantages-of-react)**
+
 ## Introduction to React
 
 React is a JavaScript library used for building user interfaces. It focuses on creating interactive and reusable UI components. Understanding its flow and structure is essential for effective development.
@@ -94,6 +113,8 @@ export default Counter;
 
 - **Virtual Representation**: React creates a virtual representation of the DOM, enhancing performance.
 - **Diffing Algorithm**: Compares the virtual DOM with the actual DOM to minimize updates.
+
+[Read more about virtual DOM](virtual%20dom.md)
 
 ## Tree Structure in React
 
