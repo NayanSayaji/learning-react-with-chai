@@ -1,5 +1,19 @@
 # Create your own react library and JSX (Custom React - Basics of how react works under the hood)
 
+
+### Index:
+
+1. **[Create your own React Library and JSX (Custom React - Basics of how React works under the hood)](#create-your-own-react-library-and-jsx-custom-react---basics-of-how-react-works-under-the-hood)**
+2. **[index.html](#indexhtml)**
+3. **[customReact.js](#customreactjs)**
+   - [customRender Function](#customrender-function)
+   - [Example React-like Element](#example-react-like-element)
+   - [Usage Example](#usage-example)
+   - [Simplifications and Limitations](#simplifications-and-limitations)
+
+
+This index links to the main sections of the provided content, allowing for quick navigation to each specific part.
+
 ### index.html
 ```html
 <!DOCTYPE html>
