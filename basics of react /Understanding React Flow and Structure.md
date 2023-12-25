@@ -78,7 +78,9 @@ Absolutely, here are some fundamental rules and best practices when working with
 
 
 - **Components**: Components are building blocks of React apps, encapsulating logic and UI. This is written in JSX format.
-  
+
+Naming convention in components mostly Follows starting with a Capital letter always and then Camel Case, 1st letter or new word should be capital.
+
 ### Functional Components
 
 Functional components are stateless and are essentially JavaScript functions that return JSX.
