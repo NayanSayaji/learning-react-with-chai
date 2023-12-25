@@ -9,7 +9,7 @@
     - using react, react-dom cdn links (not recommended, so complex for bundling the application)
     - create-react-app (CRA)
     - using vite CLI
-3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)](basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+3. [Create your own react library and JSX (Custom React - Basics of how react works under the hood)](basics%20of%20react%20/create-your-own-react-library-and-jsx-custom-react.md)
     - customReact.js
     - customRender Function
     - Example React-like Element
