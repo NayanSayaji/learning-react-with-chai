@@ -12,10 +12,10 @@
    - [State and Props](#3-state-and-props)
    - [Event Handling](#4-event-handling)
 6. **[React Structure](#react-structure)**
-   - [Components](#components)
-   - [JSX Structure](#jsx-structure)
-   - [Folder Structure](#folder-structure)
-   - [Styling](#styling)
+   - [Components](#1-components)
+   - [JSX Structure](#2-jsx-structure)
+   - [Folder Structure](#3-folder-structure)
+   - [Styling](#4-styling)
 7. **[Conclusion](#conclusion)**
 8. **[Advantages of React](#advantages-of-react)**
 
@@ -58,7 +58,27 @@ JSX elements are transpiled to JavaScript functions by tools like Babel before r
 
 ### 2. Component-Based Architecture
 
+Absolutely, here are some fundamental rules and best practices when working with components in ReactJS:
+
+### 1. **Single Responsibility Principle (SRP):**
+   - **Rule:** Each component should ideally do one thing and do it well.
+   - **Reasoning:** This ensures components are focused, maintainable, and easier to debug.
+
+### 2. **Reusable and Composable Components:**
+   - **Rule:** Create components that can be reused across the application.
+   - **Reasoning:** Promotes modularity, reduces duplication, and simplifies maintenance.
+
+### 3. **Component Naming Conventions:**
+   - **Rule:** Use descriptive and meaningful names for components.
+   - **Reasoning:** Makes code more readable and understandable for developers.
+
+### 4. **Avoiding Massive Components:**
+   - **Rule:** Keep components small and focused; if a component becomes too large, consider breaking it into smaller ones.
+   - **Reasoning:** Enhances code readability, maintainability, and reusability.
+
+
 - **Components**: Components are building blocks of React apps, encapsulating logic and UI. This is written in JSX format.
+  
 ### Functional Components
 
 Functional components are stateless and are essentially JavaScript functions that return JSX.
@@ -107,6 +127,7 @@ export default Counter;
 
 ```
 - **Reusability**: Components can be reused throughout the app, enhancing modularity.
+- Class components are almost deprecated, Functional components are used everywhere so using functional components are better practices.
 
 
 ### 3. Virtual DOM
