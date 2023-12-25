@@ -33,6 +33,7 @@ No, they are different. The Shadow DOM is a browser technology designed primaril
 
 ![React Virtual DOM](https://miro.medium.com/v2/resize:fit:1400/1*GHX157rdwWEP1pqfpgMfDQ.png)
 
+![React Virtual DOM](../assets/React-Virtual-DOM.png)
 ## How It Works:
 
 1. **Representation of DOM**: The Virtual DOM is a representation of the actual DOM as a tree structure composed of React elements.
