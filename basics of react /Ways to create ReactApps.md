@@ -6,6 +6,7 @@
     - [3 main files in CRA](#You-should-know-about-the-3-files-mainly)
     - [ReactDOM.render() and ReactDOM.createRoot().render()](##reactdomrender-and-reactdomcreaterootrender--)
 - [Using Vite CLI](#3creating-a-react-app-using-vite-cli)
+    - [Folder Structure](#Folder-Structure)
 
 
 ### Pre-requisite
