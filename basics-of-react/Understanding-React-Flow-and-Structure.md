@@ -55,10 +55,135 @@ Tags like <div>, <h1>, <p> represent HTML elements, but they are actually React 
 JSX elements are transpiled to JavaScript functions by tools like Babel before rendering.
 ```
 
+In JSX we have seen the syntax of HTML yet but where can we actually inject javascript code. So for injecting javaScript we use curly braces.
+
+`{ javascript is written in side this code but only }`
+
+In React, curly braces `{}` are used to embed JavaScript expressions within JSX. You can write various types of JavaScript expressions and statements inside curly braces in React JSX.
+
+Here are examples of JavaScript that can be written within curly braces in React:
+
+1. **Variables and Constants:**
+   ```javascript
+   const name = 'John';
+   let age = 25;
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <div>{name}</div>
+      <div>{age}</div>
+    );
+   };
+   ```
+
+2. **Expressions:**
+   ```javascript
+   const sum = (a, b) => a + b;
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <div>{sum(3, 5)}</div>
+    );
+   };   
+   ```
+
+3. **Conditional Rendering:**
+   ```javascript
+   const isLoggedIn = true;
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <div>
+        {isLoggedIn ? 'Logged In' : 'Logged Out'}
+      </div>
+    );
+   };
+   ```
+
+4. **Function Calls:**
+   ```javascript
+   const greet = () => 'Hello, React!';
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <div>{greet()}</div>
+    );
+   };
+   ```
+
+5. **Mapping Arrays:**
+   ```javascript
+   const numbers = [1, 2, 3, 4];
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <ul>
+        {numbers.map(number => (
+          <li key={number}>
+          {number}
+          </li>
+        ))}
+      </ul>
+    );
+   };
+   ```
+
+6. **JavaScript Objects and Attributes:**
+   ```javascript
+   const person = { name: 'Alice', age: 30 };
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <div>
+        <p>Name: {person.name}</p>
+        <p>Age: {person.age}</p>
+      </div>
+    );
+   };
+   ```
+
+7. **JavaScript Functions:**
+   ```javascript
+   const handleClick = () => {
+     // Function logic here
+   };
+
+   // Inside JSX
+   const MyComponent = () => {
+   return (
+      <button onClick={handleClick}>
+        Click Me
+      </button>
+    );
+   };
+   ```
+
+8. **JSX Fragments:**
+   ```javascript
+   // Inside JSX
+   const MyComponent = () => {
+   return (   
+      <> // this kind of empty brackets are known as fragments in react
+        <h1>Hello</h1>
+        <p>World</p>
+      </>
+    );
+   };
+   ```
+
+Remember, within curly braces in JSX, you can include any valid JavaScript expression or statement to dynamically render content, execute functions, handle events, or interact with state and props in your React components.
 
 ### 2. Component-Based Architecture
 
-Absolutely, here are some fundamental rules and best practices when working with components in ReactJS:
+- **Components**: Components are building blocks of React apps, encapsulating logic and UI. This is written in JSX format.
+
+Naming convention in components mostly Follows starting with a Capital letter always and then Camel Case, 1st letter or new word should be capital.
 
 ### 1. **Single Responsibility Principle (SRP):**
    - **Rule:** Each component should ideally do one thing and do it well.
@@ -77,9 +202,6 @@ Absolutely, here are some fundamental rules and best practices when working with
    - **Reasoning:** Enhances code readability, maintainability, and reusability.
 
 
-- **Components**: Components are building blocks of React apps, encapsulating logic and UI. This is written in JSX format.
-
-Naming convention in components mostly Follows starting with a Capital letter always and then Camel Case, 1st letter or new word should be capital.
 
 ### Functional Components
 
@@ -91,11 +213,23 @@ Functional components are stateless and are essentially JavaScript functions tha
 import React from 'react';
 
 const MyComponent = () => {
-  return <div>Hello, I am a functional component!</div>;
+  return 
+  <>
+    Hello, I am a functional component!
+  </>;
 };
 
 export default MyComponent;
 
+```
+```
+<> </>
+this kind of empty angle brackets are known as 
+fragments in react.
+
+As any react component can return a single element.
+So whenever we nest multiple element we insert them 
+between these empty angle brackets i.e., fragments
 ```
 
 ### Class Components
@@ -137,7 +271,7 @@ export default Counter;
 - **Virtual Representation**: React creates a virtual representation of the DOM, enhancing performance.
 - **Diffing Algorithm**: Compares the virtual DOM with the actual DOM to minimize updates.
 
-[Read more about virtual DOM](virtual%20dom.md)
+[Read more about virtual DOM](virtual-dom.md)
 
 ## Tree Structure in React
 
