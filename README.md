@@ -15,17 +15,17 @@
     - Example React-like Element
     - Usage Example
 Simplifications and Limitations
-5. [Virtual DOM](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/basics%20of%20react%20/virtual%20dom.md)
+5. [Virtual DOM](basics%20of%20react%20/virtual%20dom.md)
     - What is Virtual DOM
     - Reconciliation
     - Old reconciliation (stack) and New reconciliation (fibre)
-6. [Why you need hooks and projects]()
+6. [Why you need hooks and projects](basics%20of%20react%20/hooks.md)
     - What is hooks
     - Basics of hooks
     - useState() hook
     - Simple counter using useState() Hook
-7. [Props in react.]()
-8. [A react interview question on counter]()
+7. [Props in react.](basics%20of%20react%20/props.md)
+8. [A react interview question on counter](basics%20of%20react%20/counter-question.md)
 9. [UseEffect, useRef and useCallback hooks with 1 project]()
 10. [Custom hooks in react | currency project]()
 11. [React router ]()
