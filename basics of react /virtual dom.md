@@ -33,7 +33,7 @@ Since “virtual DOM” is more of a pattern than a specific technology, people 
 ### Is the Shadow DOM the same as the Virtual DOM?
 No, they are different. The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components. The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
 
-<img src="../assets/virtual-dom.png" alt="virtual dom" title="virtual DOM" width="600">
+![](https://github.com/NayanSayaji/learning-react-with-chai/blob/main/assets/React-Virtual-DOM.png)
 
 ## How It Works:
 
