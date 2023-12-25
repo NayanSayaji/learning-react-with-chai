@@ -1,11 +1,11 @@
 # Learning React with chai ☕
 
 ### Things to learn : 
-1. [Understand the react flow and structure](basics%20of%20react%20/Understanding%20React%20Flow%20and%20Structure.md)
+1. [Understand the react flow and structure](basics%20of%20react%20/Understanding-React-Flow-and-Structure.md)
     - What is React
     - JSX, Components
     - Props, States, Basics of React
-2. [Ways to create ReactApps](basics%20of%20react%20/Ways%20to%20create%20ReactApps.md)
+2. [Ways to create ReactApps](basics%20of%20react%20/Ways-to-create-ReactApps.md)
     - using react, react-dom cdn links (not recommended, so complex for bundling the application)
     - create-react-app (CRA)
     - using vite CLI
@@ -15,7 +15,7 @@
     - Example React-like Element
     - Usage Example
 Simplifications and Limitations
-5. [Virtual DOM](basics%20of%20react%20/virtual%20dom.md)
+5. [Virtual DOM](basics%20of%20react%20/virtual-dom.md)
     - What is Virtual DOM
     - Reconciliation
     - Old reconciliation (stack) and New reconciliation (fibre)
