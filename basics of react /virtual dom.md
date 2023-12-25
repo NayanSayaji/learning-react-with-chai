@@ -9,21 +9,11 @@ Absolutely! Here's a neatly organized index with properly linked headings:
    - [Benefits of Virtual DOM](#benefits-of-virtual-dom)
 
 2. **[Reconciliation in React](#reconciliation-in-react)**
-   - [Overview](#overview)
    - [How Reconciliation Works](#how-reconciliation-works)
-   - [Benefits of Reconciliation](#benefits-of-reconciliation)
-   - [Summary](#summary)
 
 3. **[Old Reconciliation Algorithm (Stack Reconciliation)](#old-reconciliation-algorithm-stack-reconciliation)**
-   - [Overview](#overview-1)
-   - [Key Characteristics](#key-characteristics)
-   - [Issues with Stack Reconciliation](#issues-with-stack-reconciliation)
 
 4. **[New Reconciliation Algorithm (Fiber Reconciliation)](#new-reconciliation-algorithm-fiber-reconciliation)**
-   - [Overview](#overview-)
-   - [Key Characteristics](#key-characteristics-1)
-   - [Benefits of Fiber Reconciliation](#benefits-of-fiber-reconciliation)
-   - [Summary](#summary-1)
 
 
 # Virtual DOM in React
