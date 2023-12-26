@@ -1,6 +1,7 @@
 # `useEffect()`, `useRef()` and `useCallback() ` hooks
 
 - **[Lifecycle Equivalent in React Hooks:](#Lifecycle-Equivalent-in-React-Hooks-1)**
+- **[`useEffect()` hook](#Lifecycle-Equivalent-in-React-Hooks-1)**
   - [Usage of useEffect](#usage-of-useeffect-to-simulate-lifecycle-methods)
   - [Mounting](#mounting)
   - [Updating](#Updating)
@@ -26,6 +27,8 @@ In React, when using hooks, the concept of lifecycle methods is slightly differe
 
 
 ## `useEffect()` hook
+  In React, the `useEffect()` hook allows us to perform side effects in functional components. These side effects might include data fetching, subscriptions, or manually changing the DOM.
+  
 ### Usage of `useEffect()` to Simulate Lifecycle Methods:
 
 #### **Mounting:**

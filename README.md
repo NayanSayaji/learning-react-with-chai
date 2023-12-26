@@ -1,6 +1,7 @@
-# ***Learning React with chai ☕***
-    Complete react tutorial for beginners to advanced.
-
+# ***Learning React with chai*** ☕
+```javascript
+    Complete react tutorial from basics to advanced.
+```
 ## *Things to learn :-*
 
 1. ***[Understand the react flow and structure](basics-of-react/01Understanding-React-Flow-and-Structure.md)***
@@ -35,6 +36,11 @@
      - Example of props
 7. ***[A react interview question on counter](basics-of-react/07counter-question.md)***
 8. ***[UseEffect, useRef and useCallback hooks with 1 project](/basics-of-react/08useEffect-useRef-useCallback-hook.md)***
+    - useEffect() hook
+    - useRef() hook
+    - useCallback() Hook
+        - Memoization in React
+    - Background-color changer project
 9. ***[Custom hooks in react | currency project](/basics-of-react/09custom-hooks-in-react-and-currency-project.md)***
 10. ***[React router]()***
 11. ***[Context API in React]()***
