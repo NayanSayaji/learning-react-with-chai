@@ -1,12 +1,14 @@
 # Ways to create ReactApps
 
-- [Using CDN links of react & react-dom](#1creating-a-react-app-using-html-css-and-javascript-with-cdn-links)
-- [Using create-react-app CLI](#2creating-a-react-app-using-create-react-app-cli)
+- **[Using CDN links of react & react-dom](#1creating-a-react-app-using-html-css-and-javascript-with-cdn-links)**
+- **[Using create-react-app CLI](#2creating-a-react-app-using-create-react-app-cli)**
     - [Project Structure](#Project-Structure)
     - [3 main files in CRA](#You-should-know-about-the-3-files-mainly)
     - [ReactDOM.render() and ReactDOM.createRoot().render()](##reactdomrender-and-reactdomcreaterootrender--)
-- [Using Vite CLI](#3creating-a-react-app-using-vite-cli)
+- **[Using Vite CLI](#3creating-a-react-app-using-vite-cli)**
     - [Folder Structure](#Folder-Structure)
+    - [main.jsx](#mainjsx)
+    - [app.jsx](#appjsx)
 
 
 ### Pre-requisite
@@ -77,7 +79,7 @@ body {
 This structure allows you to create a basic React app using CDN links for React and ReactDOM. 
 You can write your components in app.js, define styles in styles.css, and connect them in the index.html file.
 For production applications, it's advisable to use package managers and build tools to manage dependencies and optimize your code.
-[Read about package bundler here](package%20bundler.md)
+[Read about package bundler here](02.1package-bundler.md)
 
 
 ## 2.Creating a React App using create-react-app CLI

@@ -1,23 +1,23 @@
 # Understanding React Flow and Structure
 
-1. **[Introduction to React](#introduction-to-react)**
-2. **[Key Concepts of React](#key-concepts-of-react)**
+- **[Introduction to React](#introduction-to-react)**
+- **[Key Concepts of React](#key-concepts-of-react)**
    - [JSX (JavaScript XML)](#1-jsx-javascript-xml)
    - [Component-Based Architecture](#2-component-based-architecture)
-3. **[Virtual DOM](#3-virtual-dom)**
-4. **[Tree Structure in React](#tree-structure-in-react)**
-5. **[React Flow](#react-flow)**
+- **[Virtual DOM](#3-virtual-dom)**
+- **[Tree Structure in React](#tree-structure-in-react)**
+- **[React Flow](#react-flow)**
    - [Initialization](#1-initialization)
    - [Component Lifecycle](#2-component-lifecycle)
    - [State and Props](#3-state-and-props)
    - [Event Handling](#4-event-handling)
-6. **[React Structure](#react-structure)**
+- **[React Structure](#react-structure)**
    - [Components](#1-components)
    - [JSX Structure](#2-jsx-structure)
    - [Folder Structure](#3-folder-structure)
    - [Styling](#4-styling)
-7. **[Conclusion](#conclusion)**
-8. **[Advantages of React](#advantages-of-react)**
+- **[Conclusion](#conclusion)**
+- **[Advantages of React](#advantages-of-react)**
 
 ## Introduction to React
 

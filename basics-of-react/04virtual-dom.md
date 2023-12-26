@@ -1,20 +1,17 @@
-### Index:
-
-1. **[Virtual DOM in React](#virtual-dom-in-react)**
-   - [What is the Virtual DOM?](#what-is-the-virtual-dom)
-   - [How It Works](#how-it-works)
-   - [Is the Shadow DOM the same as the Virtual DOM?](#is-the-shadow-dom-the-same-as-the-virtual-dom)
-   - [Benefits of Virtual DOM](#benefits-of-virtual-dom)
-
-2. **[Reconciliation in React](#reconciliation-in-react)**
-   - [How Reconciliation Works](#how-reconciliation-works)
-
-3. **[Old Reconciliation Algorithm (Stack Reconciliation)](#old-reconciliation-algorithm-stack-reconciliation)**
-
-4. **[New Reconciliation Algorithm (Fiber Reconciliation)](#new-reconciliation-algorithm-fiber-reconciliation)**
-
-
 # Virtual DOM in React
+
+
+- **[Virtual DOM in React](#virtual-dom-in-react)**
+  - [What is the Virtual DOM?](#what-is-the-virtual-dom)
+  - [How It Works](#how-it-works)
+  - [Is the Shadow DOM the same as the Virtual DOM?](#is-the-shadow-dom-the-same-as-the-virtual-dom)
+  - [Benefits of Virtual DOM](#benefits-of-virtual-dom)
+- **[Reconciliation in React](#reconciliation-in-react)**
+  - [How Reconciliation Works](#how-reconciliation-works)
+- **[Old Reconciliation Algorithm (Stack Reconciliation)](#old-reconciliation-algorithm-stack-reconciliation)**
+- **[New Reconciliation Algorithm (Fiber Reconciliation)](#new-reconciliation-algorithm-fiber-reconciliation)**
+
+
 
 ## What is the Virtual DOM?
 
@@ -31,7 +28,7 @@ Since “virtual DOM” is more of a pattern than a specific technology, people 
 ### Is the Shadow DOM the same as the Virtual DOM?
 No, they are different. The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components. The virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
 
-![React Virtual DOM](https://miro.medium.com/v2/resize:fit:1400/1*GHX157rdwWEP1pqfpgMfDQ.png)
+<!-- ![React Virtual DOM](https://miro.medium.com/v2/resize:fit:1400/1*GHX157rdwWEP1pqfpgMfDQ.png) -->
 
 ![React Virtual DOM](../assets/React-Virtual-DOM.png)
 ## How It Works:
