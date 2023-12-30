@@ -106,3 +106,85 @@ In this example:
 - **Immutability:** Props should not be modified directly within the child component to maintain data integrity and avoid side effects.
 
 Props in React facilitate the passing of data from parent to child components, allowing for the creation of flexible and reusable components that can be configured or personalized based on specific needs.
+
+
+## Props Example 
+
+- [main.jsx](#mainjsx)
+- [App.jsx](#appjsx)
+- [components/Card.jsx](#componentscardjsx)
+
+Sure, here's a cleaner version of the code with added comments:
+
+#### `components/Card.jsx`
+```javascript
+import React from 'react';
+
+// Component for displaying a card
+function Card({ username, btnText = 'visit me' }) {
+  // Displays the card with user details and a button
+  return (
+    <div className="relative h-[400px] w-[300px] rounded-md">
+      <img
+        src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+        alt="AirMax Pro"
+        className="z-0 h-full w-full rounded-md object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+      <div className="absolute bottom-4 left-4 text-left">
+        {/* Displays the username */}
+        <h1 className="text-lg font-semibold text-white">{username}</h1>
+        <p className="mt-2 text-sm text-gray-300">
+          {/* Placeholder text */}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, debitis?
+        </p>
+        <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+          {/* Displays the button text */}
+          {btnText} →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default Card;
+```
+
+#### `App.jsx`
+```javascript
+import { useState } from 'react';
+import './App.css';
+import Card from './components/Card';
+
+function App() {
+  // State for the count
+  const [count, setCount] = useState(0);
+
+  return (
+    <>
+      {/* Title */}
+      <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Tailwind test</h1>
+      {/* Renders two Card components */}
+      <Card username="nayansayaji" btnText="click me" />
+      <Card username="xyz" />
+    </>
+  );
+}
+
+export default App;
+```
+
+#### `main.jsx`
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import './index.css';
+
+// Renders the App component inside root
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```

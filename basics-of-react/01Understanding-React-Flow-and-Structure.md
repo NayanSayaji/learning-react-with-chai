@@ -393,3 +393,5 @@ It empowers developers to build scalable, reusable, and maintainable application
 
 10. **Strong Community Support:** With the backing of Facebook and a thriving open-source community, React receives consistent updates, improvements, and support.
 
+
+[Next Page ==>>](/basics-of-react/02Ways-to-create-ReactApps.md)

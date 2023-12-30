@@ -40,12 +40,13 @@ In ```React, a Hook is a feature``` introduced in version 16.8 ```that allows fu
 3. **Example:**
 
 ### Counter using useState() Hook
+`App.jsx`
 ```javascript
 import { useState } from 'react'
 import './App.css'
 
 function App() {
-  //   useState hook with counter varible and 
+  //   useState hook with counter variable and 
   //   setCount method to set value of counter
   const [counter, setCount] = useState(0)
 
