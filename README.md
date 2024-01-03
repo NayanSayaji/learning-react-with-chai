@@ -1,7 +1,9 @@
+
 # ***Learning React with chai*** ☕
 ```javascript
     Complete react tutorial from basics to advanced.
 ```
+
 ## *Things to learn :-*
 
 1. ***[Understand the react flow and structure](basics-of-react/01Understanding-React-Flow-and-Structure.md)***
@@ -44,25 +46,26 @@
     - useRef() hook
     - useCallback() Hook
         - Memoization in React
-10. [Background-color changer project](/basics-of-react/08.1-bgchanger.md)
-   - Setting up project
-   - State Lifting in React
-   - Example
-   - Features of State Lifting
-11. ***[Custom hooks in react | currency project](/basics-of-react/09custom-hooks-in-react-and-currency-project.md)***
-12. ***[React router]()***
-13. ***[Context API in React]()***
-13. ***[Context api with local storage]()***
-13. ***[Redux toolkit crash course]()***
-14. ***[Our mega project in React]()***
-15. ***[Appwrite backend for react project]()***
-16. ***[ENV and Appwrite in React project]()***
-17. ***[Build authentication service with appwrite]()***
-18. ***[Appwrite database, file upload and custom queries]()***
-19. ***[How to configure redux toolkit in big projects]()***
-20. ***[Production grade react components]()***
-21. ***[How to use React hook form in production]()***
-22. ***[adding form and slug values]()[building pages]()***
-23. ***[CORS and debugging in React Project]()***
-24. ***[Assignments for your react course]()***
-25. ***[React series ends here]()***
+10. ***[Background-color changer project | Using Props, useState()](/basics-of-react/08.1-bgchanger.md)***
+      - Setting up project
+      - State Lifting in React
+      - Example
+      - Features of State Lifting
+11. ***[Random password generator project | Using Memoization, useCallback()](/basics-of-react/09-random-password-generator.md)***
+12. ***[Custom hooks in react | currency project](/basics-of-react/09custom-hooks-in-react-and-currency-project.md)***
+13. ***[React router]()***
+14. ***[Context API in React]()***
+15. ***[Context api with local storage]()***
+16. ***[Redux toolkit crash course]()***
+17. ***[Our mega project in React]()***
+18. ***[Appwrite backend for react project]()***
+19. ***[ENV and Appwrite in React project]()***
+20. ***[Build authentication service with appwrite]()***
+21. ***[Appwrite database, file upload and custom queries]()***
+22. ***[How to configure redux toolkit in big projects]()***
+23. ***[Production grade react components]()***
+24. ***[How to use React hook form in production]()***
+25. ***[adding form and slug values]()[building pages]()***
+26. ***[CORS and debugging in React Project]()***
+27. ***[Assignments for your react course]()***
+28. ***[React series ends here]()***
