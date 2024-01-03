@@ -34,17 +34,25 @@
      - Definition
      - Characteristics
      - Example of props
-7. ***[A react interview question on counter](basics-of-react/07counter-question.md)***
-8. ***[UseEffect, useRef and useCallback hooks with 1 project](/basics-of-react/08useEffect-useRef-useCallback-hook.md)***
+7. ***[Mapping of elements in React](/basics-of-react/06.1Mapping-in-react.md)***
+   - Mapping of components in react
+   - Mapping Arrays
+   - Mapping Objects
+8. ***[A react interview question on counter](basics-of-react/07counter-question.md)***
+9. ***[UseEffect, useRef and useCallback hooks with 1 project](/basics-of-react/08useEffect-useRef-useCallback-hook.md)***
     - useEffect() hook
     - useRef() hook
     - useCallback() Hook
         - Memoization in React
-    - Background-color changer project
-9. ***[Custom hooks in react | currency project](/basics-of-react/09custom-hooks-in-react-and-currency-project.md)***
-10. ***[React router]()***
-11. ***[Context API in React]()***
-12. ***[Context api with local storage]()***
+10. [Background-color changer project](/basics-of-react/08.1-bgchanger.md)
+   - Setting up project
+   - State Lifting in React
+   - Example
+   - Features of State Lifting
+11. ***[Custom hooks in react | currency project](/basics-of-react/09custom-hooks-in-react-and-currency-project.md)***
+12. ***[React router]()***
+13. ***[Context API in React]()***
+13. ***[Context api with local storage]()***
 13. ***[Redux toolkit crash course]()***
 14. ***[Our mega project in React]()***
 15. ***[Appwrite backend for react project]()***
