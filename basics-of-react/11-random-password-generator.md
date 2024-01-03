@@ -20,7 +20,8 @@
 
 The Random Password Generator is a React-based application designed to dynamically create secure and customizable passwords. Leveraging the power of React's core features and hooks like `useState`, `useEffect`, `useRef`, and `useCallback`, this project provides users with a flexible interface to generate passwords based on their specified criteria.
 
-[Access Project Here](./random-password-generator/README.md)
+### [=> Access Project Here](https://github.com/NayanSayaji/react-projects/tree/main/random-password-generator)
+
 
 ### Key Features
 

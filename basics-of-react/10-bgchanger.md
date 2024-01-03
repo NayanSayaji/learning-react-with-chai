@@ -50,7 +50,7 @@ npx tailwindcss init -p
 
 ### Configure your template paths
 Add the paths to all of your template files in your tailwind.config.js file.
-```bash
+```javascript
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -67,7 +67,7 @@ export default {
 ### Add the Tailwind directives to your CSS
 Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
 
-```bash
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -77,6 +77,8 @@ Add the @tailwind directives for each of Tailwind’s layers to your ./src/index
 ```bash
 npm run dev
 ```
+
+### [=> Access Project Here](https://github.com/NayanSayaji/react-projects/tree/main/bg-changer)
 
 #### `App.jsx`
 ```javascript
