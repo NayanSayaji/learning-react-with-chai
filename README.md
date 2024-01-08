@@ -54,12 +54,19 @@
       - Example
       - Features of State Lifting
 11. ***[Random password generator project | Using useState(), useEffect(), useRef(), useCallback() hooks](/basics-of-react/11-random-password-generator.md)***
-    - Introduction
-    - States Used
-    - Event Handling
-    - Functions
-    - Effects
+      - Introduction
+      - States Used
+      - Event Handling
+      - Functions
+      - Effects
 12. ***[Custom hooks in react | currency project](/basics-of-react/12-custom-hooks-in-react-and-currency-project.md)***
+      - Folder Structure
+      - main.jsx
+      - components/InputBox.jsx
+      - components/index.js
+      - hooks/useCurrencyInfo.js - Custom Hook
+      - App.jsx
+      - Demo Image of Application 
 13. ***[React router]()***
 14. ***[Context API in React]()***
 15. ***[Context api with local storage]()***

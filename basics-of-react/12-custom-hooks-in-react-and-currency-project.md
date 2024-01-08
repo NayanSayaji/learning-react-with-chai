@@ -14,7 +14,7 @@
    - Explanation (within components/InputBox.jsx)
 - [components/index.js](#componentsindexjs)
     - Code Explanation (within components/index.js)
-- [hooks/useCurrencyInfo.js](#hooksusecurrencyinfojs)
+- [hooks/useCurrencyInfo.js - Custom Hook](#hooksusecurrencyinfojs)
     - Code Explanation (within hooks/useCurrencyInfo.js)
     - Explanation (within hooks/useCurrencyInfo.js)
 - [App.jsx](#appjsx)
@@ -155,7 +155,7 @@ This `InputBox` component can be easily integrated into other parts of the appli
 ---------
 ---------
 
-## # components/index.js
+## # components/index.js - Custom hook 
 
 The `index.js` file within the `components` directory serves as an entry point for exporting components. This specific code snippet demonstrates the export of the `InputBox` component.
 
