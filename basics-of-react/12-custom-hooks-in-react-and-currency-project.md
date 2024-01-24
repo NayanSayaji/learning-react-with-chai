@@ -22,7 +22,7 @@
 - [Demo Image of Application ](#demo-image-of-application)
     - InputBox Component
 
--------
+
 -------
 
 ### Folder Structure
